@@ -130,11 +130,7 @@ public class AFFINE {
 
         }
 
-        if (noSpclChar == 1 & plainText != null){
-            decodedText.append(decodeAFFINE(plainText,keyA,keyB));
-        }
-
-        decode = decodedText.toString();
+      
 
         return decode;
     }
